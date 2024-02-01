@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing page</title>
+    <!--font Aushom CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- custoom css link -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/sglogo.png" alt="logo" class="img-found" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa fa-bars navbar-toggler-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="main-btn" href="#contact">Hire me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- navbar section end -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>WELCOME TO MY WORLD!</h6>
+                    <h1>I'm Shiva Gaund<br/><span>Full Stack Developer</span><br/> Based on UI/UX</h1>
+                    <div class="mt-4">
+                        <a href="" class="main-btn">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+
+    <!-- about section -->
+    <section class="about_wrapper" id="about">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="images/rsz_shiv6.png" alt="About us" class="img-fluid rounded-3" style="width:100%;">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>There are many variations of passages of Lorem, ipsum dolor sit amet consectetur     adipisicing elit. Nobis vero enim quia fuga sequi fugiat expedita consequuntur.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills mb-3 justify-content-center justify-content-lg-between" id="pills-tab" role="tablist">
+
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skills</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="pills-language-tab" data-bs-toggle="pill" data-bs-target="#pills-language" type="button" role="tab" aria-controls="pills-language" aria-selected="true">Languages</button>
+                              </li>
+
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-award-tab" data-bs-toggle="pill" data-bs-target="#pills-award" type="button" role="tab" aria-controls="pills-award" aria-selected="false">Awards</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill" data-bs-target="#pills-experiance" type="button" role="tab" aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+                              </li>
+                           
+
+                          </ul>
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab" tabindex="0">
+                                <div class="single-progress">
+                                    <h6>Designing</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 85%"></div>
+                                     </div>
+                                     <span class="label">85%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Managment</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 95%"></div>
+                                     </div>
+                                     <span class="label">95%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Marketing</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 90%"></div>
+                                     </div>
+                                     <span class="label">90%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Development</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 92%"></div>
+                                     </div>
+                                     <span class="label">92%</span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show " id="pills-language" role="tabpanel" aria-labelledby="pills-language-tab" tabindex="0">
+                                <div class="single-progress">
+                                    <h6>HTML, CSS, JS, Bootstrap, jQuery</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80%"></div>
+                                     </div>
+                                     <span class="label">80%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Php, Python</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 78%"></div>
+                                     </div>
+                                     <span class="label">78%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Sql</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 90%"></div>
+                                     </div>
+                                     <span class="label">90%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>C, Java</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 70%"></div>
+                                     </div>
+                                     <span class="label">70%</span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-award" role="tabpanel" aria-labelledby="pills-award-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">Awards.com <span> Winner </span></a>  2020-2021 
+                                    </li>
+                                    <li>
+                                        <a href="#">CSS Desig Awards <span> Winner </span> </a> 2023-2024 
+                                    </li>
+                                    <li>
+                                        <a href="#">Design nominars <span> site of the day </span> </a> 2021-2022 
+                                    </li>
+                                    <li>
+                                        <a href="#">Awards.com <span> Winner </span> </a> 020-2021
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-experiance" role="tabpanel" aria-labelledby="pills-experiance-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">Sr. Front-end Engineer <span> Google </span></a> 2022 - 2023
+                                    </li>
+                                    <li>
+                                        <a href="#">Sr. Front-end Engineer <span> MicroSoft </span></a> 2021 - 2022
+                                    </li>
+                                    <li>
+                                        <a href="#">Software Engineer <span> Hydrabad </span></a> 2023- Current
+                                    </li>
+                                    <li>
+                                        <a href="#">Software Engineer <span> Hydrabad </span></a> 2023- Current
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#"> B.Tech : <span> JIT Barabanki </span></a> Currently Pursoing
+                                    </li>
+                                    <li>
+                                        <a href="#"> Diploma : <span> G P Adampur Gonda </span></a> 2023
+                                    </li>
+                                    <li>
+                                        <a href="#">Inter : <span> M P I C Rudhauli Basti </span></a> 2020
+                                    </li>
+                                    <li>
+                                        <a href="#">High School : <span> R R C I C Karavahwa Siddhartha nagar </span></a> 2018
+                                    </li>
+                                </ul>
+                            </div>
+
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- services section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">What I can do for you</span>
+                    <h2>My Awesome Service</h2>
+                    <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur adipisicing elit.<br class="d-none d-md-block"/> Officia iusto soluta perferendis animi, </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/business.webp" alt="servicres" class="img-fluid mb-4" style="height: 250px;">
+                            <h3>Business Strategy</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptate. Tenetur distinctio enim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/website.jfif" alt="servicres" class="img-fluid mb-4" style="height: 250px;">
+                            <h3>Website Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptate. Tenetur distinctio enim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/marketing.png" alt="servicres" class="img-fluid mb-4" style="height: 250px;">
+                            <h3>Marketing & Reporting</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptate. Tenetur distinctio enim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/mobile_app.webp" alt="servicres" class="img-fluid mb-4" style="height: 250px;">
+                            <h3>Mobile App Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptate. Tenetur distinctio enim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/business.webp" alt="servicres" class="img-fluid mb-4" style="height: 250px;">
+                            <h3>Business Strategy</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptate. Tenetur distinctio enim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/business.webp" alt="servicres" class="img-fluid mb-4" style="height: 250px;">
+                            <h3>Business Strategy</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptate. Tenetur distinctio enim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Complete Project</span>
+                    <h2>My Latest Project</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam eligendi labore illo<br class="d-none d-md-block"/> nisi nostrum nemo ipsam assumenda sint fugit illum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/OS/index.html" target="_blank"><div class="card p-0">
+                        <span style="background-image: url('images/Capture..PNG');"></span>
+                    </div></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/web/index.html" target="_blank"><div class="card p-0">
+                       <span style="background-image: url('images/Capture1.PNG');"></span>
+                    </div></a> 
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/Fkart/index.html" target="_blank"><div class="card p-0">
+                        <span style="background-image: url('images/Capture2.PNG');"></span>
+                    </div></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/food_and_restorent/index.html" target="_blank"><div class="card p-0">
+                        <span style="background-image: url('images/Capture3.PNG');"></span>
+                    </div></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/hotel/index.html" target="_blank"> <div class="card p-0">
+                        <span style="background-image: url('images/sweb.png');"></span>
+                    </div></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/mywedding_website/index2.html" target="_blank"><div class="card p-0">
+                        <span style="background-image: url('images/tweb.png');"></span>
+                    </div></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/col/index.html" target="_blank"><div class="card p-0">
+                        <span style="background-image: url('images/fweb.png');"></span>
+                    </div></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="Projects/starter/index.html" target="_blank"><div class="card p-0">
+                        <span style="background-image: url('images/tweb.png');"></span>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio section end -->
+
+    <!-- contact us -->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-item-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">My Complete Porject</span>
+                <h2>Hire Me</h2>
+                <div class="row call_detailes mb-4">
+                    <label class="col-sm-3 col-lg-4">Call us directory:</label>
+
+                    <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                        <a href="javascript:void(0)">+111 (0)87 9500 9269</a>
+                    </div>
+
+                    <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+                    <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                        <a href="mailto:example#gmail.com">shivagaund440@gmail.com</a>
+                    </div>
+
+                </div>
+                <form>
+                    <div class="mb-4">
+                        <input type="text" class="form-control" placeholder="Your Name..." autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                        <input type="number" class="form-control" placeholder="Your Phone..." autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                        <textarea  id="message" cols="40" rows="4" class="form-control" placeholder="Write a message..." autocomplete="off"></textarea>
+                    </div>
+                    <button class="main-btn" type="submit">Submit</button>
+                </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="images/rsz_shiv6.png" alt="image" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us end -->
+
+    <!-- footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-item-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="images/sglogo.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/shiva-gaund-1b67aa279/"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/shivagaund"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright &copy; 2023 <a href="#">Shiva gaund</a>. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
+    <!-- bootstrap js link -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
